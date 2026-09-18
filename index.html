@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lucas Wu is a student developer building thoughtful gaming websites and digital experiences." />
+  <title>Lucas Wu — Student Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .about-images{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:45px}.about-visual{margin:0}.about-visual:nth-child(2){transform:translateY(28px)}.about-visual:nth-child(3){transform:translateY(-18px)}.about-visual:nth-child(4){transform:translateY(42px)}.about-visual img{display:block;width:100%;aspect-ratio:3 / 4;object-fit:contain;background:#e9e6de}.about-visual figcaption{margin-top:12px;font:10px 'DM Mono',monospace;text-transform:uppercase;color:#888}
+    .contact-side{display:flex;flex-direction:column;align-items:flex-end;gap:28px}.contact-side img{width:180px;height:180px;object-fit:contain;background:#e9e6de}.contact-side .email-link{margin-bottom:0}
+    @media(max-width:700px){.about-images{grid-template-columns:1fr 1fr;gap:10px}.about-visual img{max-width:100%;max-height:430px}.contact-side{align-items:flex-start;margin-top:45px}.contact-side img{width:145px;height:145px}}
+    @media(max-width:700px){body{text-align:center}.site-header{justify-content:center}.wordmark{margin:0 auto}.hero-kicker,.hero-bottom,.section-heading,.project-meta,.site-footer,.contact-body{justify-content:center}.hero-kicker{flex-wrap:wrap}.hero-intro{margin-inline:auto}.hero-bottom{align-items:center;flex-direction:column;gap:28px}.heading-note{display:none}.project-meta{align-items:center;flex-direction:column;gap:10px}.project-meta p{margin-inline:auto}.about-grid{display:block}.about-lede{margin-bottom:42px}.about-copy{margin:48px auto 0}.tags{justify-content:center}.contact-body{align-items:center;flex-direction:column}.contact-details{width:min(100%,340px);margin-inline:auto}.contact-details p{justify-content:center}.contact-side{align-items:center;margin-inline:auto}.site-footer{align-items:center;flex-direction:column}.site-footer div{justify-content:center}.site-footer>span:last-child{width:auto;order:3}.email-link{margin-inline:auto}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Lucas Wu home">LW<span>.</span></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#work">Selected work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="availability" href="#contact"><span class="status-dot"></span> Open to opportunities</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-kicker"><span class="line"></span><span>Student developer · Gaming & the web</span></div>
+      <h1>I build digital worlds<br><em>people want to enter.</em></h1>
+      <div class="hero-bottom">
+        <p class="hero-intro">I’m Lucas — a student developer who enjoys turning code, game ideas, and curious experiments into websites people want to explore.</p>
+        <a class="circle-link" href="#work" aria-label="Scroll to selected work">↘</a>
+      </div>
+    </section>
+
+    <section id="work" class="work section-wrap">
+      <div class="section-heading"><span class="eyebrow">01 / Projects</span><span class="heading-note">A place for work in progress</span></div>
+      <div class="project-grid">
+        <article class="project project-featured">
+          <div class="project-art art-oat"><div class="oat-card"><span>PROJECT 01</span><strong>coming<br>soon.</strong><small>Your first gaming website could live here.</small></div></div>
+          <div class="project-meta"><div><h2>Gaming website</h2><p>Project description · Technologies used</p></div><span class="project-year">Coming soon ↗</span></div>
+        </article>
+        <article class="project">
+          <div class="project-art art-clay"><div class="clay-orb"></div><div class="clay-type">TIDE<br><span>POOL</span></div><div class="clay-caption">A game UI study<br>in motion and flow.</div></div>
+          <div class="project-meta"><div><h2>Next project</h2><p>What you built · What you learned</p></div><span class="project-year">Coming soon ↗</span></div>
+        </article>
+        <article class="project">
+          <div class="project-art art-blue"><div class="blue-copy">READ<br>BETWEEN<br><i>the lines.</i></div><div class="blue-footer">Field notes on culture<br>and the things that shape us.</div></div>
+          <div class="project-meta"><div><h2>Next project</h2><p>What you built · What you learned</p></div><span class="project-year">Coming soon ↗</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about section-wrap">
+      <div class="section-heading"><span class="eyebrow">02 / About & skills</span></div>
+      <div class="about-grid"><div><p class="about-lede">I’m curious about how code can turn a good idea into an <em>experience.</em></p><div class="about-images"><figure class="about-visual"><img src="lucas-profile.png" alt="Lucas Wu's profile image"><figcaption>Lucas Wu · Curious creator</figcaption></figure><figure class="about-visual"><img src="lucas-interest-2.png" alt="An image representing Lucas Wu's interests"><figcaption>Interests · Curiosity and creativity</figcaption></figure><figure class="about-visual"><img src="lucas-interest-3.png" alt="A sunset image representing Lucas Wu's interests"><figcaption>Interests · Expression and humor</figcaption></figure><figure class="about-visual"><img src="lucas-interest-4.png" alt="A sunflower image representing Lucas Wu's interests"><figcaption>Interests · Joy and personality</figcaption></figure></div></div><div class="about-copy"><p>I’m Lucas Wu, a computer science student interested in software development, gaming, and creative technology. I work with Python, HMMS, CCS, and JavaScript, and I have already created some games while building my problem-solving and debugging skills. I’m a decent coder who enjoys learning through hands-on projects and hopes to create websites, games, and digital experiences that people enjoy using. My interests include game development, web development, and creative coding.</p><div class="tags"><span>Python</span><span>HMMS</span><span>CCS</span><span>JavaScript</span><span>Game development</span><span>Web development</span></div></div></div>
+    </section>
+
+    <section id="contact" class="contact section-wrap">
+      <div class="section-heading"><span class="eyebrow">03 / Let’s talk</span></div>
+      <div class="contact-body"><div><h2>Build something<br><em>interesting?</em></h2><div class="contact-details"><p><span>Name</span><strong>Lucas Wu</strong></p><p><span>Email</span><a href="mailto:67istuff@gmail.com">67istuff@gmail.com</a></p><p><span>Phone</span><a href="tel:+16767676767">+1 (676) 767-6767</a></p></div></div><div class="contact-side"><img src="lucas-interest-5.png" alt="A frog representing Lucas Wu's playful interests"><a class="email-link" href="mailto:67istuff@gmail.com">Send me an email <span>↗</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap"><span>© 2024 Lucas Wu</span><div><a href="#" title="GitHub profile">GitHub</a><a href="#" title="LinkedIn profile">LinkedIn</a></div><span>Made with curiosity.</span></footer>
+</body>
+</html>
